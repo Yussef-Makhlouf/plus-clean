@@ -3,25 +3,30 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --primary: #00897B;
+  --secondary: #263238;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-gray-50;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.container {
+  @apply max-w-7xl mx-auto;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[#00897B] hover:bg-[#00695C] text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg;
   }
+  .card {
+    @apply bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 ease-in-out;
+  }
+  .section-title {
+    @apply text-4xl font-bold text-center mb-12 text-[#00897B];
+  }
+}
+
+.glassmorphism {
+  @apply bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg;
 }
