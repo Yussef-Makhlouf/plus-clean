@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { Check } from 'lucide-react'
 import { motion } from 'framer-motion'
+import SectionHeader from './SectionHeader'
 
 const plans = [
   {
@@ -44,8 +45,10 @@ export default function Pricing() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4">اختر الباقة المناسبة لك</h2>
-          <p className="text-gray-600 mb-8">أسعار مناسبة لجميع الاحتياجات</p>
+          <SectionHeader
+            title="اختر الباقة المناسبة لك"
+            subtitle="أسعار مناسبة لجميع الاحتياجات"
+          />
           
           <div className="flex items-center justify-center gap-4">
             <span className={`text-lg transition-colors ${!isYearly ? 'text-blue-600' : 'text-gray-600'}`}>

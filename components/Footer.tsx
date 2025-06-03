@@ -52,12 +52,9 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-center gap-3 text-gray-400">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <span>+966 555 000000</span>
+                <span dir='ltr'>+966563009155</span>
               </li>
-              <li className="flex items-center gap-3 text-gray-400">
-                <Mail className="w-5 h-5 text-blue-400" />
-                <span>info@example.com</span>
-              </li>
+            
               <li className="flex items-center gap-3 text-gray-400">
                 <MapPin className="w-5 h-5 text-blue-400" />
                 <span>الرياض، المملكة العربية السعودية</span>
@@ -65,20 +62,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Newsletter */}
-          <div>
-            <h4 className="text-lg font-semibold mb-6">النشرة البريدية</h4>
-            <form className="space-y-4">
-              <input 
-                type="email" 
-                placeholder="البريد الإلكتروني" 
-                className="w-full px-4 py-2 bg-white/5 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 text-white"
-              />
-              <button className="w-full px-4 py-2 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg hover:opacity-90 transition-opacity">
-                اشترك الآن
-              </button>
-            </form>
-          </div>
+    
         </div>
 
         {/* Bottom Footer */}

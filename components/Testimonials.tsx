@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import SectionHeader from './SectionHeader'
 
 const testimonials = [
   {
@@ -28,15 +29,7 @@ export default function Testimonials() {
   return (
     <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-4">
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <h2 className="text-4xl font-bold mb-4">آراء العملاء</h2>
-          <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
-        </motion.div>
+        <SectionHeader title="آراء العملاء" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
