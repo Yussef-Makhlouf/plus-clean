@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+        http://www.google.com/schemas/sitemap-image/1.1
+        http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+  <url>
+    <loc>https://cleanplusteam.com/</loc>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/logo.avif</image:loc>
+      <image:title>شعار شركة النظافة العصرية</image:title>
+      <image:caption>أفضل شركة تنظيف في الرياض</image:caption>
+      <image:license>https://creativecommons.org/licenses/by/4.0/</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/ar_logo.avif</image:loc>
+      <image:title>شعار الشركة باللغة العربية</image:title>
+      <image:caption>شركة النظافة العصرية - خدمات تنظيف شاملة</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/en_logo.avif</image:loc>
+      <image:title>Company Logo in English</image:title>
+      <image:caption>Modern Cleaning Company - Comprehensive Cleaning Services</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://cleanplusteam.com/services</loc>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/company_clean.avif</image:loc>
+      <image:title>خدمات تنظيف الشركات</image:title>
+      <image:caption>تنظيف احترافي للمكاتب والشركات في الرياض</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/home_clean.avif</image:loc>
+      <image:title>تنظيف المنازل</image:title>
+      <image:caption>خدمات تنظيف شاملة للمنازل والفلل</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/home_cleaning.avif</image:loc>
+      <image:title>تنظيف المنازل الشامل</image:title>
+      <image:caption>تنظيف عميق ومنظم للمنازل في الرياض</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://cleanplusteam.com/home-cleaning</loc>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/home-cleaning-guide.avif</image:loc>
+      <image:title>دليل تنظيف المنازل</image:title>
+      <image:caption>دليل شامل لتنظيف المنازل في الرياض</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/home-cleaning-riyadh-guide.avif</image:loc>
+      <image:title>دليل تنظيف المنازل في الرياض</image:title>
+      <image:caption>نصائح وأسعار تنظيف المنازل في الرياض</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://cleanplusteam.com/blog</loc>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/home-cleaning-guide.avif</image:loc>
+      <image:title>دليل شامل لتنظيف المنزل في الرياض</image:title>
+      <image:caption>تعرف على أفضل الطرق والممارسات لتنظيف منزلك بشكل احترافي</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/home-disinfection.avif</image:loc>
+      <image:title>كيفية تنظيف وتعقيم المنزل للوقاية من الأمراض</image:title>
+      <image:caption>نصائح مهمة حول تعقيم المنزل وطرق الحفاظ على بيئة صحية</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/carpet-cleaning-guide.avif</image:loc>
+      <image:title>دليل تنظيف السجاد والموكيت في الرياض</image:title>
+      <image:caption>طرق احترافية لتنظيف السجاد وإزالة البقع</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/water-leak.avif</image:loc>
+      <image:title>دليل تنظيف خزانات المياه في الرياض</image:title>
+      <image:caption>حماية صحتك من تلوث المياه</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/pest_control.jpg</image:loc>
+      <image:title>دليل مكافحة الحشرات في الرياض</image:title>
+      <image:caption>حماية منزلك من الآفات الضارة</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://cleanplusteam.com/blog/home-cleaning-guide</loc>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/home-cleaning-guide.avif</image:loc>
+      <image:title>دليل شامل لتنظيف المنزل في الرياض</image:title>
+      <image:caption>نصائح احترافية من خبراء شركة النظافة العصرية لتنظيف المنزل</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://cleanplusteam.com/blog/home-disinfection-guide</loc>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/home-disinfection.avif</image:loc>
+      <image:title>دليل تعقيم المنازل في الرياض</image:title>
+      <image:caption>حماية عائلتك من الأمراض المعدية</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://cleanplusteam.com/blog/carpet-cleaning-guide</loc>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/carpet-cleaning-guide.avif</image:loc>
+      <image:title>دليل تنظيف السجاد والموكيت في الرياض</image:title>
+      <image:caption>نصائح احترافية لإزالة البقع وحماية السجاد</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://cleanplusteam.com/blog/water-tank-cleaning-guide</loc>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/water-leak.avif</image:loc>
+      <image:title>دليل تنظيف خزانات المياه في الرياض</image:title>
+      <image:caption>حماية صحتك من التلوث</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://cleanplusteam.com/blog/pest-control-guide</loc>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/pest_control.jpg</image:loc>
+      <image:title>دليل مكافحة الحشرات في الرياض</image:title>
+      <image:caption>حماية منزلك من الآفات الضارة</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://cleanplusteam.com/pest-control</loc>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/pest_control.jpg</image:loc>
+      <image:title>خدمات مكافحة الحشرات</image:title>
+      <image:caption>مكافحة آمنة وفعالة للحشرات في الرياض</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://cleanplusteam.com/water-tank-cleaning</loc>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/water-leak.avif</image:loc>
+      <image:title>تنظيف خزانات المياه</image:title>
+      <image:caption>تنظيف وتعقيم خزانات المياه في الرياض</image:caption>
+    </image:image>
+  </url>
+
+</urlset>

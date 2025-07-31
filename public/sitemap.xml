@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+        http://www.google.com/schemas/sitemap-image/1.1
+        http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd
+        http://www.google.com/schemas/sitemap-news/0.9
+        http://www.google.com/schemas/sitemap-news/0.9/sitemap-news.xsd">
+
+  <!-- الصفحة الرئيسية -->
+  <url>
+    <loc>https://cleanplusteam.com/</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/logo.avif</image:loc>
+      <image:title>شركة النظافة العصرية</image:title>
+      <image:caption>أفضل شركة تنظيف في الرياض</image:caption>
+    </image:image>
+  </url>
+
+  <!-- صفحة الخدمات -->
+  <url>
+    <loc>https://cleanplusteam.com/services</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- صفحة تنظيف المنازل -->
+  <url>
+    <loc>https://cleanplusteam.com/home-cleaning</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- صفحة تنظيف المكاتب -->
+  <url>
+    <loc>https://cleanplusteam.com/office-cleaning</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- صفحة تنظيف السجاد -->
+  <url>
+    <loc>https://cleanplusteam.com/carpet-cleaning</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- صفحة تنظيف الكنب -->
+  <url>
+    <loc>https://cleanplusteam.com/sofa-cleaning</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- صفحة تنظيف خزانات المياه -->
+  <url>
+    <loc>https://cleanplusteam.com/water-tank-cleaning</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- صفحة مكافحة الحشرات -->
+  <url>
+    <loc>https://cleanplusteam.com/pest-control</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- صفحة التعقيم -->
+  <url>
+    <loc>https://cleanplusteam.com/disinfection</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- صفحة المدونة -->
+  <url>
+    <loc>https://cleanplusteam.com/blog</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- مقالة دليل تنظيف المنازل -->
+  <url>
+    <loc>https://cleanplusteam.com/blog/home-cleaning-guide</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/home-cleaning-guide.avif</image:loc>
+      <image:title>دليل تنظيف المنازل في الرياض</image:title>
+      <image:caption>نصائح احترافية لتنظيف المنزل</image:caption>
+    </image:image>
+  </url>
+
+  <!-- مقالة دليل تعقيم المنازل -->
+  <url>
+    <loc>https://cleanplusteam.com/blog/home-disinfection-guide</loc>
+    <lastmod>2024-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/home-disinfection.avif</image:loc>
+      <image:title>دليل تعقيم المنازل في الرياض</image:title>
+      <image:caption>طرق تعقيم آمنة وفعالة</image:caption>
+    </image:image>
+  </url>
+
+  <!-- مقالة دليل تنظيف السجاد -->
+  <url>
+    <loc>https://cleanplusteam.com/blog/carpet-cleaning-guide</loc>
+    <lastmod>2024-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/carpet-cleaning-guide.avif</image:loc>
+      <image:title>دليل تنظيف السجاد والموكيت</image:title>
+      <image:caption>طرق تنظيف السجاد الاحترافية</image:caption>
+    </image:image>
+  </url>
+
+  <!-- مقالة دليل تنظيف خزانات المياه -->
+  <url>
+    <loc>https://cleanplusteam.com/blog/water-tank-cleaning-guide</loc>
+    <lastmod>2024-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/water-leak.avif</image:loc>
+      <image:title>دليل تنظيف خزانات المياه</image:title>
+      <image:caption>حماية صحتك من تلوث المياه</image:caption>
+    </image:image>
+  </url>
+
+  <!-- مقالة دليل مكافحة الحشرات -->
+  <url>
+    <loc>https://cleanplusteam.com/blog/pest-control-guide</loc>
+    <lastmod>2024-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cleanplusteam.com/pest_control.jpg</image:loc>
+      <image:title>دليل مكافحة الحشرات</image:title>
+      <image:caption>حماية منزلك من الآفات الضارة</image:caption>
+    </image:image>
+  </url>
+
+</urlset> 

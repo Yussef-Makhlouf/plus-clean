@@ -2,12 +2,12 @@ import Image from 'next/image'
 import SectionHeader from './SectionHeader'
 
 const galleryImages = [
-  '/placeholder.svg?height=300&width=400',
-  '/placeholder.svg?height=300&width=400',
-  '/placeholder.svg?height=300&width=400',
-  '/placeholder.svg?height=300&width=400',
-  '/placeholder.svg?height=300&width=400',
-  '/placeholder.svg?height=300&width=400',
+  '/khazan_clean.avif',
+  '/khazan_clean.avif',
+  '/khazan_clean.avif',
+  '/khazan_clean.avif',
+  '/khazan_clean.avif',
+  '/khazan_clean.avif',
 ]
 
 export default function Gallery() {
