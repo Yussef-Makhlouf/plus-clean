@@ -30,7 +30,7 @@ const CleaningServicesPage = () => {
           className="mb-12"
         >
           <p className="text-xl text-gray-800 mb-6 text-right leading-relaxed">
-            تعتبر **شركة بلس كلين** أحد أهم الشركات المتخصصة في مجال خدمات النظافة الشاملة والتعقيم المتقدم ومكافحة الحشرات في <a href="https://www.cleanplusteam.com/" className="text-cyan-600 hover:text-cyan-700 font-semibold">الرياض</a> والمملكة العربية السعودية. نحن نفخر بخبرتنا الطويلة في تقديم خدمات متميزة تلبي احتياجات عملائنا المتنوعة في <a href="https://www.cleanplusteam.com/" className="text-cyan-600 hover:text-cyan-700 font-semibold">جدة</a>، <a href="https://www.cleanplusteam.com/" className="text-cyan-600 hover:text-cyan-700 font-semibold">الدمام</a>، <a href="https://www.cleanplusteam.com/" className="text-cyan-600 hover:text-cyan-700 font-semibold">مكة المكرمة</a>، <a href="https://www.cleanplusteam.com/" className="text-cyan-600 hover:text-cyan-700 font-semibold">المدينة المنورة</a>، وجميع أنحاء المملكة.
+            تعتبر **شركة بلس كلين** أحد أهم الشركات المتخصصة في مجال خدمات النظافة الشاملة والتعقيم المتقدم ومكافحة الحشرات في <a href="https://www.cleanplusteam.com/" className="text-cyan-600 hover:text-cyan-700 font-semibold">الرياض</a> والمملكة العربية السعودية. نحن نفخر بخبرتنا الطويلة في تقديم خدمات متميزة تلبي احتياجات عملائنا المتنوعة في <a href="https://www.cleanplusteam.com/" className="text-cyan-600 hover:text-cyan-700 font-semibold">الرياض</a>، <a href="https://www.cleanplusteam.com/" className="text-cyan-600 hover:text-cyan-700 font-semibold">الدمام</a>، <a href="https://www.cleanplusteam.com/" className="text-cyan-600 hover:text-cyan-700 font-semibold">مكة المكرمة</a>، <a href="https://www.cleanplusteam.com/" className="text-cyan-600 hover:text-cyan-700 font-semibold">المدينة المنورة</a>، وجميع أنحاء المملكة.
           </p>
           <p className="text-lg text-gray-700 text-right leading-relaxed">
             مع التزامنا بتطبيق أحدث المعايير العالمية في مجال النظافة والتعقيم، نقدم خدمات شاملة تشمل تنظيف المنازل والفلل والمكاتب والمنشآت التجارية، إلى جانب خدمات التعقيم المتقدمة ومكافحة جميع أنواع الحشرات والقوارض. نحن نعمل بفريق من الخبراء المدربين على أعلى مستوى، مستخدمين أحدث المعدات والتقنيات الصديقة للبيئة لضمان بيئة نظيفة وصحية لعملائنا.
@@ -782,7 +782,7 @@ const CleaningServicesPage = () => {
                 خدمات مميزة في المنطقة الغربية والمدن المقدسة.
               </p>
               <ul className="list-disc list-inside text-gray-700 space-y-2 text-right">
-                <li><a href="https://www.cleanplusteam.com/" className="text-cyan-600 hover:text-cyan-700">جدة</a> - خدمات متطورة</li>
+                <li><a href="https://www.cleanplusteam.com/" className="text-cyan-600 hover:text-cyan-700">الرياض</a> - خدمات متطورة</li>
                 <li><a href="https://www.cleanplusteam.com/" className="text-cyan-600 hover:text-cyan-700 font-semibold">مكة المكرمة</a> - حلول متخصصة</li>
                 <li><a href="https://www.cleanplusteam.com/" className="text-cyan-600 hover:text-cyan-700 font-semibold">المدينة المنورة</a> - خدمات شاملة</li>
                 <li><a href="https://www.cleanplusteam.com/" className="text-cyan-600 hover:text-cyan-700 font-semibold">الطائف</a> - حلول متطورة</li>

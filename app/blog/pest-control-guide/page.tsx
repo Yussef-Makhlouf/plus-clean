@@ -1,13 +1,13 @@
-import { Metadata } from 'next'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
+  // import { Metadata } from 'next'
+  // import Header from '@/components/Header'
+  // import Footer from '@/components/Footer'
 
 
 
 export default function PestControlGuidePage() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main className="min-h-screen bg-gray-50 py-12">
         <div className="container mx-auto px-4 max-w-4xl">
           <article className="bg-white rounded-lg shadow-lg p-8">
@@ -323,7 +323,7 @@ export default function PestControlGuidePage() {
           </article>
         </div>
       </main>
-      <Footer />
+        {/* <Footer /> */}
     </>
   )
 } 
