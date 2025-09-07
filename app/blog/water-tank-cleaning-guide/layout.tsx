@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     ],
     countryName: 'Saudi Arabia',
     emails: ['info@cleanplusteam.com'],
-    phoneNumbers: ['+966569131252'],
+    phoneNumbers: ['+966592425757'],
   },
   twitter: {
     card: 'summary_large_image',

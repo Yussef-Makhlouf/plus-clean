@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'شركة تنظيف كنب بالرياض | خدمات تنظيف الكنب والأثاث - بلس كلين',
@@ -114,19 +116,22 @@ export const metadata: Metadata = {
 export default function SofaCleaningLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      {/* Schema.org Structured Data */}
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+      <Header />
+      <main className="min-h-screen bg-gray-50" lang="ar" dir="rtl">
+        {/* Schema.org Structured Data */}
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'LocalBusiness',
             'name': 'بلس كلين - تنظيف الكنب في الرياض',
             'image': 'https://www.cleanplusteam.com/home_clean.avif',
             'description': 'شركة متخصصة في تنظيف الكنب والأثاث في الرياض باستخدام أحدث التقنيات والمواد الآمنة. إزالة البقع، التعقيم والتطهير، تجفيف سريع وضمان جودة.',
             'url': 'https://www.cleanplusteam.com/services/sofa-cleaning',
-            'telephone': '+966569131252',
+            'telephone': '+966592425757',
+            'email': 'info@cleanplusteam.com',
             'address': {
               '@type': 'PostalAddress',
               'addressLocality': 'الرياض',
@@ -159,10 +164,47 @@ export default function SofaCleaningLayout({ children }: { children: React.React
             'priceRange': '150 - 500 ريال سعودي',
             'paymentAccepted': ['Cash', 'Credit Card', 'Bank Transfer'],
             'currenciesAccepted': 'SAR',
+            'sameAs': [
+              'https://www.facebook.com/cleanplusteam',
+              'https://twitter.com/cleanplusteam',
+              'https://www.instagram.com/cleanplusteam'
+            ],
+            'hasOfferCatalog': {
+              '@type': 'OfferCatalog',
+              'name': 'خدمات تنظيف الكنب',
+              'itemListElement': [
+                {
+                  '@type': 'Offer',
+                  'itemOffered': {
+                    '@type': 'Service',
+                    'name': 'تنظيف الكنب القماش',
+                    'description': 'خدمة تنظيف الكنب القماش بأحدث التقنيات وإزالة البقع'
+                  }
+                },
+                {
+                  '@type': 'Offer',
+                  'itemOffered': {
+                    '@type': 'Service',
+                    'name': 'تنظيف الكنب الجلد',
+                    'description': 'خدمة تنظيف وتلميع الكنب الجلد بمواد آمنة ومخصصة'
+                  }
+                },
+                {
+                  '@type': 'Offer',
+                  'itemOffered': {
+                    '@type': 'Service',
+                    'name': 'تعقيم وتطهير الكنب',
+                    'description': 'خدمة تعقيم وتطهير الكنب للقضاء على البكتيريا والجراثيم'
+                  }
+                }
+              ]
+            }
           }),
         }}
       />
-      {children}
+        {children}
+      </main>
+      <Footer />
     </>
   );
 }

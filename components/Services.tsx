@@ -122,7 +122,7 @@ export default function Services() {
                     </span>
                   </a>
                   <a
-                    href="https://wa.me/966569131252"
+                    href="https://wa.me/966592425757"
                     className="group relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-bold text-white transition-all duration-300 ease-out rounded-xl shadow-lg hover:shadow-xl hover:scale-105 bg-gradient-to-r from-cyan-600 to-cyan-800 hover:from-cyan-700 hover:to-cyan-900"
                     aria-label={`اطلب خدمة ${service.name} الآن عبر واتساب في الرياض`} 
                     title='اطلب خدمة تنظيف'

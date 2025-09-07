@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'شركة تنظيف خزانات بالرياض | خدمات تنظيف وتعقيم خزانات المياه - بلس كلين',
@@ -112,19 +114,22 @@ export const metadata: Metadata = {
 export default function WaterTankCleaningLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      {/* Schema.org Structured Data */}
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+      <Header />
+      <main className="min-h-screen bg-gray-50" lang="ar" dir="rtl">
+        {/* Schema.org Structured Data */}
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'LocalBusiness',
             'name': 'بلس كلين - تنظيف خزانات المياه في الرياض',
             'image': 'https://www.cleanplusteam.com/water-leak.avif',
             'description': 'شركة متخصصة في تنظيف وتعقيم خزانات المياه في الرياض باستخدام أحدث التقنيات والمواد الآمنة. إزالة الرواسب، التعقيم، فحص التسريبات، وضمان جودة المياه.',
             'url': 'https://www.cleanplusteam.com/services/water-tank-cleaning',
-            'telephone': '+966569131252',
+            'telephone': '+966592425757',
+            'email': 'info@cleanplusteam.com',
             'address': {
               '@type': 'PostalAddress',
               'addressLocality': 'الرياض',
@@ -157,10 +162,47 @@ export default function WaterTankCleaningLayout({ children }: { children: React.
             'priceRange': '200 - 800 ريال سعودي',
             'paymentAccepted': ['Cash', 'Credit Card', 'Bank Transfer'],
             'currenciesAccepted': 'SAR',
+            'sameAs': [
+              'https://www.facebook.com/cleanplusteam',
+              'https://twitter.com/cleanplusteam',
+              'https://www.instagram.com/cleanplusteam'
+            ],
+            'hasOfferCatalog': {
+              '@type': 'OfferCatalog',
+              'name': 'خدمات تنظيف خزانات المياه',
+              'itemListElement': [
+                {
+                  '@type': 'Offer',
+                  'itemOffered': {
+                    '@type': 'Service',
+                    'name': 'تنظيف الخزانات الأرضية',
+                    'description': 'خدمة تنظيف وتعقيم الخزانات الأرضية بأحدث التقنيات'
+                  }
+                },
+                {
+                  '@type': 'Offer',
+                  'itemOffered': {
+                    '@type': 'Service',
+                    'name': 'تنظيف الخزانات العلوية',
+                    'description': 'خدمة تنظيف وتعقيم الخزانات العلوية بمواد آمنة ومخصصة'
+                  }
+                },
+                {
+                  '@type': 'Offer',
+                  'itemOffered': {
+                    '@type': 'Service',
+                    'name': 'فحص وإصلاح تسريبات الخزانات',
+                    'description': 'خدمة فحص وإصلاح تسريبات الخزانات وضمان سلامتها'
+                  }
+                }
+              ]
+            }
           }),
         }}
       />
-      {children}
+        {children}
+      </main>
+      <Footer />
     </>
   );
 }

@@ -24,7 +24,7 @@ export default function ContactForm() {
             </div>
             <div className="flex items-center mb-4">
               <Phone className="w-5 h-5 text-[#00897B] ml-2" />
-              <a href="tel:+966569131252" className="hover:underline text-[#00897B] font-semibold" dir='ltr' title='اتصل بنا على الرقم +966569131252'>+966569131252</a>
+              <a href="tel:+966592425757" className="hover:underline text-[#00897B] font-semibold" dir='ltr' title='اتصل بنا على الرقم +966592425757'>+966592425757</a>
             </div>
             <div className="flex items-center mb-4">
               <Mail className="w-5 h-5 text-[#00897B] ml-2" />

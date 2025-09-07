@@ -7,11 +7,21 @@ import { useState } from 'react'
 
 const blogPosts = [
   {
+    id: 'futniture-moving',
+    title: 'أفضل شركة نقل عفش بالرياض: دليلك الشامل لعام 2025 لنقل وتغليف وفك وتركيب الأثاث بأمان',
+    description: 'تبحث عن أفضل تجربة نقل عفش بالرياض؟ دليلك الشامل لعام 2025 يغطي كل شيء من اختيار الشركة الموثوقة، نصائح التغليف الاحترافي، إلى خدمات الفك والتركيب. احصل على انتقال آمن وسريع لأثاثك.',
+    image: '/serv3.avif',
+    date: '2025-08-31',
+    readTime: '10 دقائق',
+    category: 'نقل العفش',
+    slug: 'futniture-moving'
+  },
+  {
     id: 'home-cleaning-guide',
     title: 'دليل شامل لتنظيف المنزل في الرياض',
     description: 'نصائح احترافية من خبراء شركة النظافة العصرية لتنظيف المنزل بشكل احترافي. تعرف على أفضل الطرق لتنظيف المطبخ، الحمام، غرف النوم والمزيد.',
     image: '/home-cleaning-guide.avif',
-    date: '2024-03-20',
+    date: '2025-03-20',
     readTime: '8 دقائق',
     category: 'تنظيف المنازل',
     slug: 'home-cleaning-guide'
@@ -21,7 +31,7 @@ const blogPosts = [
     title: 'دليل تعقيم المنازل في الرياض',
     description: 'دليل شامل لتعقيم المنازل مع نصائح احترافية من شركة النظافة العصرية. تعرف على أفضل طرق التعقيم والوقاية من الأمراض المعدية.',
     image: '/home-disinfection.avif',
-    date: '2024-03-18',
+    date: '2025-03-18',
     readTime: '10 دقائق',
     category: 'تعقيم المنازل',
     slug: 'home-disinfection-guide'
@@ -31,7 +41,7 @@ const blogPosts = [
     title: 'دليل تنظيف السجاد والموكيت في الرياض',
     description: 'دليل شامل لتنظيف السجاد والموكيت مع نصائح احترافية. تعرف على أفضل الطرق لإزالة البقع وحماية السجاد من التلف.',
     image: '/carpet-cleaning-guide.avif',
-    date: '2024-03-15',
+    date: '2025-03-15',
     readTime: '12 دقيقة',
     category: 'تنظيف السجاد',
     slug: 'carpet-cleaning-guide'
@@ -41,7 +51,7 @@ const blogPosts = [
     title: 'دليل تنظيف خزانات المياه في الرياض',
     description: 'دليل شامل لتنظيف خزانات المياه مع نصائح احترافية. تعرف على أهمية تنظيف الخزانات وطرق الحماية من التلوث.',
     image: '/water-leak.avif',
-    date: '2024-03-12',
+    date: '2025-03-12',
     readTime: '15 دقيقة',
     category: 'تنظيف الخزانات',
     slug: 'water-tank-cleaning-guide'
@@ -51,15 +61,34 @@ const blogPosts = [
     title: 'دليل مكافحة الحشرات في الرياض',
     description: 'دليل شامل لمكافحة الحشرات مع نصائح احترافية. تعرف على أفضل طرق الوقاية من الحشرات ومكافحتها بأمان.',
     image: '/pest_control.jpg',
-    date: '2024-03-10',
+    date: '2025-03-10',
     readTime: '14 دقيقة',
     category: 'مكافحة الحشرات',
     slug: 'pest-control-guide'
+  },
+  {
+    id: 'electrical-cleaning-guide',
+    title: 'دليل خدمات التنظيف في الرياض',
+    description: 'دليل شامل خدمات التنظيف في الرياض مع نصائح احترافية تناسب سكان الرياض ',
+    image: '/home_cleaning.avif',
+    date: '2025-03-08',
+    href: '/blog/clean-catalog',
+    slug: 'clean-catalog'   
+  },
+   {
+    id: 'carpet-cleaning-services',
+    title: 'دليل خدمات تنظيف السجاد و الموكيت في الرياض',
+    description: 'دليل شامل خدمات تنظيف السجاد و الموكيت  في الرياض مع نصائح احترافية تناسب سكان الرياض ',
+    image: '/home_cleaning.avif',
+    date: '2025-03-08',
+    href: '/blog/carpet-cleaning',
+    slug: 'carpet-cleaning'   
   }
 ]
 
 const categories = [
   'جميع المقالات',
+  'نقل العفش',
   'تنظيف المنازل',
   'تعقيم المنازل',
   'تنظيف السجاد',
@@ -243,13 +272,13 @@ export default function BlogPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="tel:+966569131252"
+                href="tel:+966592425757"
                 className="bg-blue-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors"
               >
                 اتصل بنا الآن
               </a>
               <a 
-                href="https://wa.me/966569131252"
+                href="https://wa.me/966592425757"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-green-700 transition-colors"
@@ -263,4 +292,4 @@ export default function BlogPage() {
       <Footer />
     </>
   )
-} 
+}

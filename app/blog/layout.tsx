@@ -88,7 +88,7 @@ export const metadata: Metadata = {
     ],
     countryName: 'Saudi Arabia',
     emails: ['info@cleanplusteam.com'],
-    phoneNumbers: ['+966569131252'],
+    phoneNumbers: ['+966592425757'],
   },
   twitter: {
     card: 'summary_large_image',
@@ -401,7 +401,7 @@ export default function BlogLayout({
             'name': 'شركة النظافة العصرية - المدونة',
             'description': 'مدونة شركة النظافة العصرية - نصائح احترافية وأدلة شاملة في مجال التنظيف والتعقيم ومكافحة الحشرات',
             'url': 'https://cleanplusteam.com/blog',
-            'telephone': '+966569131252',
+            'telephone': '+966592425757',
             'email': 'info@cleanplusteam.com',
             'address': {
               '@type': 'PostalAddress',
@@ -498,22 +498,7 @@ export default function BlogLayout({
         `}
       </Script>
 
-      {/* Facebook Pixel for Blog */}
-      <Script id="facebook-pixel" strategy="afterInteractive">
-        {`
-          !function(f,b,e,v,n,t,s)
-          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-          n.queue=[];t=b.createElement(e);t.async=!0;
-          t.src=v;s=b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t,s)}(window, document,'script',
-          'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', 'YOUR_FACEBOOK_PIXEL_ID');
-          fbq('track', 'PageView');
-        `}
-      </Script>
-
+  
       {children}
     </>
   )

@@ -27,7 +27,7 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="tel:+966569131252"
+              href="tel:+966592425757"
               className="group bg-white text-teal-600 px-8 py-4 rounded-xl flex items-center gap-2 text-lg font-medium hover:bg-gray-50 transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/20"
               aria-label="احجز خدمة تنظيف في الرياض الآن"
             >

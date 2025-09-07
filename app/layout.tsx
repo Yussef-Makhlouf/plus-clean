@@ -154,7 +154,7 @@ export const metadata = {
     ],
     countryName: 'Saudi Arabia',
     emails: ['info@cleanplusteam.com'],
-    phoneNumbers: ['+966569131252'],
+    phoneNumbers: ['+966592425757'],
   },
   twitter: {
     card: 'summary_large_image',
@@ -253,7 +253,7 @@ export default function RootLayout({
           },
           'contactPoint': {
             '@type': 'ContactPoint',
-            'telephone': '+966569131252',
+            'telephone': '+966592425757',
             'contactType': 'customer service',
             'availableLanguage': ['Arabic']
           },
@@ -307,10 +307,10 @@ export default function RootLayout({
         {children}
         
         <div className="fixed bottom-4 left-4 flex flex-col gap-4 z-50">
-          <a href="https://wa.me/966569131252" target="_blank" rel="noopener noreferrer" className="bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition-colors" title="تواصل عبر واتساب" aria-label="تواصل عبر واتساب">
+          <a href="https://wa.me/966592425757" target="_blank" rel="noopener noreferrer" className="bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition-colors" title="تواصل عبر واتساب" aria-label="تواصل عبر واتساب">
             <MessageCircle className="w-6 h-6" />
           </a>
-          <a href="tel:+966569131252" className="bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-600 transition-colors" title="اتصل الآن" aria-label="اتصل الآن">
+          <a href="tel:+966592425757" className="bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-600 transition-colors" title="اتصل الآن" aria-label="اتصل الآن">
             <Phone className="w-6 h-6" />
           </a>
         </div>

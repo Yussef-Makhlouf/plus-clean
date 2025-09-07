@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'شركة تنظيف منازل بالرياض | خدمات تنظيف الشقق والفلل - بلس كلين',
@@ -108,19 +110,22 @@ export const metadata: Metadata = {
 export default function HomeCleaningLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      {/* Schema.org Structured Data */}
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+      <Header />
+      <main className="min-h-screen bg-gray-50" lang="ar" dir="rtl">
+        {/* Schema.org Structured Data */}
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'LocalBusiness',
             'name': 'بلس كلين - تنظيف المنازل في الرياض',
             'image': 'https://www.cleanplusteam.com/home_cleaning.avif',
             'description': 'شركة متخصصة في تنظيف المنازل والشقق والفلل في الرياض باستخدام أحدث التقنيات ومواد التنظيف الآمنة. تنظيف عميق، تعقيم، إزالة البقع، وضمان جودة.',
             'url': 'https://www.cleanplusteam.com/services/home-cleaning',
-            'telephone': '+966569131252',
+            'telephone': '+966592425757',
+            'email': 'info@cleanplusteam.com',
             'address': {
               '@type': 'PostalAddress',
               'addressLocality': 'الرياض',
@@ -153,10 +158,47 @@ export default function HomeCleaningLayout({ children }: { children: React.React
             'priceRange': '200 - 1000 ريال سعودي',
             'paymentAccepted': ['Cash', 'Credit Card', 'Bank Transfer'],
             'currenciesAccepted': 'SAR',
+            'sameAs': [
+              'https://www.facebook.com/cleanplusteam',
+              'https://twitter.com/cleanplusteam',
+              'https://www.instagram.com/cleanplusteam'
+            ],
+            'hasOfferCatalog': {
+              '@type': 'OfferCatalog',
+              'name': 'خدمات تنظيف المنازل',
+              'itemListElement': [
+                {
+                  '@type': 'Offer',
+                  'itemOffered': {
+                    '@type': 'Service',
+                    'name': 'تنظيف شامل للمنازل',
+                    'description': 'خدمة تنظيف شاملة للمنازل تشمل جميع الغرف والمرافق'
+                  }
+                },
+                {
+                  '@type': 'Offer',
+                  'itemOffered': {
+                    '@type': 'Service',
+                    'name': 'تنظيف الشقق',
+                    'description': 'خدمة تنظيف متخصصة للشقق السكنية بمختلف المساحات'
+                  }
+                },
+                {
+                  '@type': 'Offer',
+                  'itemOffered': {
+                    '@type': 'Service',
+                    'name': 'تنظيف الفلل',
+                    'description': 'خدمة تنظيف شاملة للفلل والقصور بأحدث التقنيات'
+                  }
+                }
+              ]
+            }
           }),
         }}
       />
-      {children}
+        {children}
+      </main>
+      <Footer />
     </>
   );
 }

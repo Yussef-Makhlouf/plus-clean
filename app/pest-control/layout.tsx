@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'شركة مكافحة حشرات بالرياض | إبادة الحشرات ورش المبيدات - بلس كلين',
@@ -110,19 +112,22 @@ export const metadata: Metadata = {
 export default function PestControlLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      {/* Schema.org Structured Data */}
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+      <Header />
+      <main className="min-h-screen bg-gray-50" lang="ar" dir="rtl">
+        {/* Schema.org Structured Data */}
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'LocalBusiness',
             'name': 'بلس كلين - مكافحة الحشرات في الرياض',
             'image': 'https://www.cleanplusteam.com/pest_control.jpg',
             'description': 'شركة متخصصة في مكافحة الحشرات ورش المبيدات في الرياض باستخدام أحدث التقنيات والمواد الآمنة. إبادة الصراصير، النمل، الفئران، البعوض، وضمان بيئة صحية.',
             'url': 'https://www.cleanplusteam.com/services/pest-control',
-            'telephone': '+966569131252',
+            'telephone': '+966592425757',
+            'email': 'info@cleanplusteam.com',
             'address': {
               '@type': 'PostalAddress',
               'addressLocality': 'الرياض',
@@ -155,10 +160,47 @@ export default function PestControlLayout({ children }: { children: React.ReactN
             'priceRange': '150 - 600 ريال سعودي',
             'paymentAccepted': ['Cash', 'Credit Card', 'Bank Transfer'],
             'currenciesAccepted': 'SAR',
+            'sameAs': [
+              'https://www.facebook.com/cleanplusteam',
+              'https://twitter.com/cleanplusteam',
+              'https://www.instagram.com/cleanplusteam'
+            ],
+            'hasOfferCatalog': {
+              '@type': 'OfferCatalog',
+              'name': 'خدمات مكافحة الحشرات',
+              'itemListElement': [
+                {
+                  '@type': 'Offer',
+                  'itemOffered': {
+                    '@type': 'Service',
+                    'name': 'مكافحة الصراصير',
+                    'description': 'خدمة مكافحة الصراصير بأنواعها في المنازل والشركات'
+                  }
+                },
+                {
+                  '@type': 'Offer',
+                  'itemOffered': {
+                    '@type': 'Service',
+                    'name': 'مكافحة النمل الأبيض',
+                    'description': 'خدمة مكافحة النمل الأبيض والقضاء عليه نهائياً'
+                  }
+                },
+                {
+                  '@type': 'Offer',
+                  'itemOffered': {
+                    '@type': 'Service',
+                    'name': 'مكافحة الفئران والقوارض',
+                    'description': 'خدمة مكافحة الفئران والقوارض بطرق آمنة وفعالة'
+                  }
+                }
+              ]
+            }
           }),
         }}
       />
-      {children}
+        {children}
+      </main>
+      <Footer />
     </>
   );
 }

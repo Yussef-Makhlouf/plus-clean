@@ -141,7 +141,7 @@ export default function AboutUs() {
                   <p className="text-teal-50">نقدم خدمات تنظيف احترافية بأسعار تنافسية</p>
                 </div>
                 <a 
-                  href="https://wa.me/966569131252" 
+                  href="https://wa.me/966592425757" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-white text-[#00897B] px-8 py-4 rounded-xl font-bold hover:scale-105 transition-transform shadow-lg flex items-center gap-2"

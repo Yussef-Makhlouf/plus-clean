@@ -61,7 +61,7 @@ const DisinfectionPage = () => {
             className="flex flex-col md:flex-row justify-center items-center gap-4 mb-16"
           >
             <a
-              href="https://wa.me/966569131252"
+              href="https://wa.me/966592425757"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-cyan-600 to-cyan-700 text-white px-10 py-5 rounded-full font-bold shadow-2xl hover:from-cyan-700 hover:to-cyan-800 transition-all duration-300 flex items-center gap-3 text-lg transform hover:scale-105"
@@ -70,11 +70,11 @@ const DisinfectionPage = () => {
               <Zap className="w-6 h-6" />
             </a>
             <a
-              href="tel:+966569131252"
+              href="tel:+966592425757"
               className="bg-white text-cyan-600 border-2 border-cyan-600 px-8 py-4 rounded-full font-bold hover:bg-cyan-50 transition-all duration-300 flex items-center gap-2"
             >
               <Phone className="w-5 h-5" />
-              اتصل الآن: 0569131252
+              اتصل الآن: 0592425757
             </a>
           </motion.div>
 
@@ -206,7 +206,7 @@ const DisinfectionPage = () => {
                   </div>
                   <div className="flex justify-end items-center">
                     <motion.a 
-                      href="tel:+966569131252"
+                      href="tel:+966592425757"
                       whileHover={{ scale: 1.05 }}
                       className="bg-cyan-600 text-white px-6 py-3 rounded-full hover:bg-cyan-700 transition-colors inline-flex items-center gap-2"
                     >

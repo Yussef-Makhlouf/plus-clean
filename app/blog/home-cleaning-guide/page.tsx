@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
+import Image from 'next/image'
 // import Header from '@/components/Header'
 // import Footer from '@/components/Footer'
-
-
 
 export default function HomeCleaningGuidePage() {
   return (
@@ -20,9 +20,12 @@ export default function HomeCleaningGuidePage() {
                 <span className="mx-2">•</span>
                 <span>قراءة 8 دقائق</span>
               </div>
-              <img 
+              <Image 
                 src="/home-cleaning-guide.avif" 
-                alt="دليل تنظيف المنزل في الرياض"
+                alt="دليل تنظيف المنزل في الرياض - صورة توضيحية لتنظيف منزل في الرياض"
+                width={1200}
+                height={630}
+                priority
                 className="w-full h-64 object-cover rounded-lg mb-6"
               />
             </header>
@@ -265,26 +268,82 @@ export default function HomeCleaningGuidePage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a 
-                    href="tel:+966569131252"
+                    href="tel:+966592425757"
                     className="bg-blue-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors text-center"
+                    aria-label="اتصل بنا على رقم +966592425757"
                   >
                     اتصل بنا الآن
                   </a>
                   <a 
-                    href="https://wa.me/966569131252"
+                    href="https://wa.me/966592425757"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-green-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-green-700 transition-colors text-center"
+                    aria-label="تواصل معنا عبر واتساب"
                   >
                     تواصل عبر واتساب
                   </a>
+                  <Link 
+                    href="/home-cleaning"
+                    className="bg-purple-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-purple-700 transition-colors text-center"
+                    aria-label="تعرف على خدمات تنظيف المنازل"
+                  >
+                    خدمات تنظيف المنازل
+                  </Link>
                 </div>
               </div>
             </div>
+            
+            {/* Add related articles section for better SEO */}
+            <section className="mt-12 border-t pt-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">مقالات ذات صلة</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <Link href="/blog/carpet-cleaning-guide" className="block group">
+                  <div className="bg-gray-50 p-4 rounded-lg transition-all group-hover:bg-gray-100">
+                    <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600">دليل تنظيف السجاد في الرياض</h3>
+                    <p className="text-gray-700">تعرف على أفضل طرق تنظيف وصيانة السجاد للحفاظ على جودته لأطول فترة ممكنة.</p>
+                  </div>
+                </Link>
+                <Link href="/blog/home-disinfection-guide" className="block group">
+                  <div className="bg-gray-50 p-4 rounded-lg transition-all group-hover:bg-gray-100">
+                    <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-blue-600">دليل تعقيم المنازل في الرياض</h3>
+                    <p className="text-gray-700">نصائح احترافية لتعقيم منزلك والحفاظ على صحة أسرتك من الفيروسات والبكتيريا.</p>
+                  </div>
+                </Link>
+              </div>
+            </section>
+            
+            {/* Add FAQ section for SEO */}
+            <section className="mt-12 border-t pt-8" itemScope itemType="https://schema.org/FAQPage">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">أسئلة شائعة حول تنظيف المنازل</h2>
+              
+              <div className="space-y-6">
+                <div className="bg-gray-50 p-4 rounded-lg" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+                  <h3 className="font-bold text-lg text-gray-900 mb-2" itemProp="name">كم مرة يجب تنظيف المنزل بشكل شامل؟</h3>
+                  <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                    <p className="text-gray-700" itemProp="text">ينصح خبراء التنظيف بإجراء تنظيف شامل للمنزل مرة كل 2-3 أشهر، مع الحفاظ على التنظيف اليومي للمناطق الأكثر استخداماً مثل المطبخ والحمامات.</p>
+                  </div>
+                </div>
+                
+                <div className="bg-gray-50 p-4 rounded-lg" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+                  <h3 className="font-bold text-lg text-gray-900 mb-2" itemProp="name">ما هي أفضل طريقة للتعامل مع الغبار في الرياض؟</h3>
+                  <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                    <p className="text-gray-700" itemProp="text">للتعامل مع الغبار في الرياض، ينصح باستخدام مماسح المايكروفايبر بدلاً من المماسح العادية، تركيب فلاتر هواء عالية الكفاءة، وإغلاق النوافذ خلال العواصف الرملية، مع تنظيف يومي للأسطح المكشوفة.</p>
+                  </div>
+                </div>
+                
+                <div className="bg-gray-50 p-4 rounded-lg" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+                  <h3 className="font-bold text-lg text-gray-900 mb-2" itemProp="name">كيف أختار شركة تنظيف منازل موثوقة في الرياض؟</h3>
+                  <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                    <p className="text-gray-700" itemProp="text">لاختيار شركة تنظيف منازل موثوقة في الرياض، تحقق من تراخيصها الرسمية، اقرأ تقييمات العملاء السابقين، اسأل عن خبرتها ومؤهلات فريق العمل، واطلب معلومات عن المنتجات والمعدات المستخدمة للتأكد من أنها آمنة وفعالة.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
           </article>
         </div>
       </main>
       {/* <Footer /> */}
     </>
   )
-} 
+}

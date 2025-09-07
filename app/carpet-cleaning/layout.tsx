@@ -112,58 +112,107 @@ export const metadata: Metadata = {
   },
 };
 
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+
 export default function CarpetCleaningLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      {/* Schema.org Structured Data */}
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'LocalBusiness',
-            'name': 'بلس كلين - تنظيف السجاد في الرياض',
-            'image': 'https://www.cleanplusteam.com/home-cleaning-riyadh-guide.avif',
-            'description': 'شركة متخصصة في تنظيف السجاد والموكيت في الرياض باستخدام أحدث التقنيات والمواد الآمنة. إزالة البقع، التعقيم والتطهير، تجفيف سريع وضمان جودة.',
-            'url': 'https://www.cleanplusteam.com/services/carpet-cleaning',
-            'telephone': '+966569131252',
-            'address': {
-              '@type': 'PostalAddress',
-              'addressLocality': 'الرياض',
-              'addressCountry': 'SA',
-            },
-            'geo': {
-              '@type': 'GeoCoordinates',
-              'latitude': 24.7136,
-              'longitude': 46.6753,
-            },
-            'openingHoursSpecification': {
-              '@type': 'OpeningHoursSpecification',
-              'dayOfWeek': [
-                'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'
+      <Header />
+      <main className="min-h-screen bg-gray-50" lang="ar" dir="rtl">
+        {/* Schema.org Structured Data */}
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'LocalBusiness',
+              'name': 'بلس كلين - تنظيف السجاد في الرياض',
+              'image': 'https://www.cleanplusteam.com/home-cleaning-riyadh-guide.avif',
+              'description': 'شركة متخصصة في تنظيف السجاد والموكيت في الرياض باستخدام أحدث التقنيات والمواد الآمنة. إزالة البقع، التعقيم والتطهير، تجفيف سريع وضمان جودة.',
+              'url': 'https://www.cleanplusteam.com/services/carpet-cleaning',
+              'telephone': '+966592425757',
+              'email': 'info@cleanplusteam.com',
+              'address': {
+                '@type': 'PostalAddress',
+                'addressLocality': 'الرياض',
+                'addressRegion': 'الرياض',
+                'addressCountry': 'SA',
+              },
+              'geo': {
+                '@type': 'GeoCoordinates',
+                'latitude': 24.7136,
+                'longitude': 46.6753,
+              },
+              'openingHoursSpecification': {
+                '@type': 'OpeningHoursSpecification',
+                'dayOfWeek': [
+                  'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'
+                ],
+                'opens': '00:00',
+                'closes': '23:59',
+              },
+              'serviceArea': {
+                '@type': 'GeoCircle',
+                'geoMidpoint': {
+                  '@type': 'GeoCoordinates',
+                  'latitude': 24.7136,
+                  'longitude': 46.6753
+                },
+                'geoRadius': '50000'
+              },
+              'aggregateRating': {
+                '@type': 'AggregateRating',
+                'ratingValue': '4.9',
+                'reviewCount': '247',
+                'bestRating': '5',
+                'worstRating': '1',
+              },
+              'priceRange': '150 - 500 ريال سعودي',
+              'paymentAccepted': ['Cash', 'Credit Card', 'Bank Transfer'],
+              'currenciesAccepted': 'SAR',
+              'sameAs': [
+                'https://www.facebook.com/cleanplusteam',
+                'https://twitter.com/cleanplusteam',
+                'https://www.instagram.com/cleanplusteam'
               ],
-              'opens': '00:00',
-              'closes': '23:59',
-            },
-            'serviceArea': {
-              '@type': 'City',
-              'name': 'الرياض',
-            },
-            'aggregateRating': {
-              '@type': 'AggregateRating',
-              'ratingValue': '4.9',
-              'reviewCount': '247',
-              'bestRating': '5',
-              'worstRating': '1',
-            },
-            'priceRange': '150 - 500 ريال سعودي',
-            'paymentAccepted': ['Cash', 'Credit Card', 'Bank Transfer'],
-            'currenciesAccepted': 'SAR',
-          }),
-        }}
-      />
-      {children}
+              'hasOfferCatalog': {
+                '@type': 'OfferCatalog',
+                'name': 'خدمات تنظيف السجاد',
+                'itemListElement': [
+                  {
+                    '@type': 'Offer',
+                    'itemOffered': {
+                      '@type': 'Service',
+                      'name': 'تنظيف السجاد',
+                      'description': 'خدمة تنظيف شاملة للسجاد في الرياض'
+                    }
+                  },
+                  {
+                    '@type': 'Offer',
+                    'itemOffered': {
+                      '@type': 'Service',
+                      'name': 'تنظيف الموكيت',
+                      'description': 'خدمة تنظيف احترافية للموكيت في الرياض'
+                    }
+                  },
+                  {
+                    '@type': 'Offer',
+                    'itemOffered': {
+                      '@type': 'Service',
+                      'name': 'إزالة بقع السجاد',
+                      'description': 'خدمة متخصصة لإزالة البقع الصعبة من السجاد'
+                    }
+                  }
+                ]
+              }
+            }),
+          }}
+        />
+        {children}
+      </main>
+      <Footer />
     </>
   );
 }

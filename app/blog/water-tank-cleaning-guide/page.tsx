@@ -306,13 +306,13 @@ export default function WaterTankCleaningGuidePage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a 
-                    href="tel:+966569131252"
+                    href="tel:+966592425757"
                     className="bg-blue-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors text-center"
                   >
                     احجز خدمة تنظيف الخزانات
                   </a>
                   <a 
-                    href="https://wa.me/966569131252"
+                    href="https://wa.me/966592425757"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-green-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-green-700 transition-colors text-center"

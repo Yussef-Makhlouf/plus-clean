@@ -95,8 +95,8 @@ export default function ServicesWithImages() {
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => {
-                    window.location.href = 'https://wa.me/966569131252'
-                    window.open('https://wa.me/966569131252', '_blank')
+                    window.location.href = 'https://wa.me/966592425757'
+                    window.open('https://wa.me/966592425757', '_blank')
                   }}
                   className="inline-flex items-center justify-center gap-2 bg-cyan-600 hover:bg-cyan-700 text-white px-8 py-3 rounded-full font-bold shadow-lg text-lg md:text-xl transition-all mt-4"
                   aria-label={`احجز خدمة ${service.title} الآن في الرياض`}

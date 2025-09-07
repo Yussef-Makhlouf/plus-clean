@@ -760,11 +760,11 @@ const CarpetCleaningPage = () => {
               </div>
               <div className="text-center mt-8">
                 <a
-                  href="tel:+966569131252"
+                  href="tel:+966592425757"
                   className="bg-red-600 text-white px-8 py-4 rounded-full font-bold shadow-lg hover:bg-red-700 transition-colors duration-300 inline-flex items-center gap-2"
                 >
                   <Phone className="w-5 h-5" />
-                  اتصل الآن للطوارئ: 0569131252
+                  اتصل الآن للطوارئ: 0592425757
                 </a>
               </div>
             </div>
@@ -844,7 +844,7 @@ const CarpetCleaningPage = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
-                href="https://wa.me/966569131252"
+                href="https://wa.me/966592425757"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 text-white px-8 py-4 rounded-full font-bold shadow-lg hover:bg-green-600 transition-colors duration-300 inline-flex items-center gap-2"
@@ -853,7 +853,7 @@ const CarpetCleaningPage = () => {
                 <Zap className="w-5 h-5" />
               </a>
               <a
-                href="tel:+966569131252"
+                href="tel:+966592425757"
                 className="bg-white text-cyan-700 px-8 py-4 rounded-full font-bold shadow-lg hover:bg-gray-100 transition-colors duration-300 inline-flex items-center gap-2"
               >
                 اتصل الآن
@@ -955,7 +955,7 @@ const CarpetCleaningPage = () => {
                 'image': 'https://www.cleanplusteam.com/images/carpet-cleaning-riyadh.jpg',
                 'description': 'شركة متخصصة في تنظيف السجاد والموكيت في الرياض باستخدام أحدث التقنيات والمواد الآمنة. خدمة تنظيف السجاد  إزالة البقع، التعقيم والتطهير.',
                 'url': 'https://www.cleanplusteam.com/services/carpet-cleaning',
-                'telephone': '+966569131252',
+                'telephone': '+966592425757',
                 'address': {
                   '@type': 'PostalAddress',
                   'streetAddress': 'الرياض',
@@ -1073,7 +1073,7 @@ const CarpetCleaningPage = () => {
                   '@type': 'Organization',
                   'name': 'بلس كلين',
                   'url': 'https://www.cleanplusteam.com',
-                  'telephone': '+966569131252',
+                  'telephone': '+966592425757',
                   'address': {
                     '@type': 'PostalAddress',
                     'addressLocality': 'الرياض',
@@ -1134,7 +1134,7 @@ const CarpetCleaningPage = () => {
             '@type': 'Organization',
             'name': 'بلس كلين',
             'url': 'https://www.cleanplusteam.com',
-            'telephone': '+966569131252',
+            'telephone': '+966592425757',
             'address': {
               '@type': 'PostalAddress',
               'addressLocality': 'الرياض',

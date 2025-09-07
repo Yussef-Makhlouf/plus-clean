@@ -111,7 +111,7 @@ const CleaningServicesPage = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="text-center">
                   <h4 className="text-xl font-bold text-cyan-800 mb-4">تواصل معنا الآن</h4>
-                  <p className="text-cyan-700 font-semibold text-lg mb-2" dir='ltr'>+966569131252</p>
+                  <p className="text-cyan-700 font-semibold text-lg mb-2" dir='ltr'>+966592425757</p>
                   <p className="text-gray-600">خدمة 24/7 في جميع أحياء الرياض</p>
                 </div>
                 

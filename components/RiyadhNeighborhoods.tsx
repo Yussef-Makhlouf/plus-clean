@@ -177,7 +177,7 @@ export default function RiyadhNeighborhoods() {
               </div>
               <div className="flex flex-col sm:flex-row gap-4 w-full justify-center items-center mt-4">
                 <a
-                  href="tel:+966569131252"
+                  href="tel:+966592425757"
                   className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-full text-base font-bold shadow-lg transition-colors duration-200 min-w-[120px]"
                   title={`اتصل لخدمات تنظيف في ${item.name}`}
                 >
@@ -185,7 +185,7 @@ export default function RiyadhNeighborhoods() {
                   اتصال
                 </a>
                 <a
-                  href="https://wa.me/966569131252"
+                  href="https://wa.me/966592425757"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#128C7E] text-white px-6 py-2 rounded-full text-base font-bold shadow-lg transition-colors duration-200 min-w-[120px]"

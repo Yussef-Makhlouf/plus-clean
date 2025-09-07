@@ -522,10 +522,10 @@ const WaterTankCleaningPage = () => {
               <h3 className="text-xl font-bold text-cyan-900 mb-2">الاتصال المباشر</h3>
               <p className="text-gray-700 mb-4">للحجز الفوري والاستفسارات العاجلة</p>
               <a
-                href="tel:+966569131252"
+                href="tel:+966592425757"
                 className="bg-cyan-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-cyan-700 transition-colors duration-300 inline-block"
               >
-                966569131252+
+                966592425757+
               </a>
             </motion.div>
 
@@ -539,7 +539,7 @@ const WaterTankCleaningPage = () => {
               <h3 className="text-xl font-bold text-cyan-900 mb-2">واتساب</h3>
               <p className="text-gray-700 mb-4">للتواصل السريع وإرسال صور الخزان</p>
               <a
-                href="https://wa.me/966569131252"
+                href="https://wa.me/966592425757"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-green-700 transition-colors duration-300 inline-block"
@@ -643,7 +643,7 @@ const WaterTankCleaningPage = () => {
             استشارة مجانية • تقدير دقيق للأسعار • ضمان الجودة • خدمة عملاء متميزة
           </p>
           <a
-            href="https://wa.me/966569131252"
+            href="https://wa.me/966592425757"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-cyan-600 px-8 py-4 rounded-full font-bold shadow-lg hover:bg-gray-50 transition-colors duration-300 inline-flex items-center gap-2"

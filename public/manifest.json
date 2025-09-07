@@ -94,7 +94,7 @@
       "name": "اتصل بنا",
       "short_name": "اتصل",
       "description": "تواصل معنا للحجز",
-      "url": "tel:+966569131252",
+      "url": "tel:+966592425757",
       "icons": [
         {
           "src": "/logo.avif",
@@ -106,7 +106,7 @@
       "name": "واتساب",
       "short_name": "واتساب",
       "description": "تواصل عبر واتساب",
-      "url": "https://wa.me/966569131252",
+      "url": "https://wa.me/966592425757",
       "icons": [
         {
           "src": "/logo.avif",
