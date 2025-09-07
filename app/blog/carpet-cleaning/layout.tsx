@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'مقالات تنظيف السجاد والموكيت | مدونة شركة النظافة العصرية',
     description: 'أحدث النصائح والطرق الاحترافية لتنظيف السجاد والموكيت في الرياض',
-    images: ['https://cleanplusteam.com/blog-carpet-cleaning-main.avif'],
+    images: ['https://cleanplusteam.com/carpet-cleaning-guide.avif'],
     creator: '@cleanplusteam',
     site: '@cleanplusteam',
   },

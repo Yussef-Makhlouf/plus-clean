@@ -36,7 +36,7 @@ export default function CarpetCleaningRiyadhArticle() {
             </span>
           </div>
           <img
-            src="/carpet-cleaning-riyadh.jpg"
+            src="/carpet-cleaning-guide.jpg"
             alt="تنظيف السجاد والموكيت في الرياض"
             className="w-full h-96 object-cover rounded-xl shadow-lg"
           />
